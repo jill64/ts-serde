@@ -1,6 +1,6 @@
 {
   "name": "ts-serde",
-  "description": "",
+  "description": "🎶 Typed Serialization and Deserialization",
   "version": "0.0.0",
   "type": "module",
   "main": "dist/index.js",
@@ -10,7 +10,9 @@
   "homepage": "https://github.com/jill64/ts-serde#readme",
   "files": [
     "dist",
-    "!**/*.test.*"
+    "!**/*.test.*",
+    "!*.test.*",
+    "!*.spec.*"
   ],
   "exports": {
     "./types": {
@@ -26,7 +28,12 @@
     "type": "git",
     "url": "https://github.com/jill64/ts-serde.git"
   },
-  "keywords": [],
+  "keywords": [
+    "deserialize",
+    "serde",
+    "serialize",
+    "type-safe"
+  ],
   "scripts": {
     "build": "tsc && npx publint",
     "prepack": "npm run build",
