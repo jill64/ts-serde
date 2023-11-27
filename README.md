@@ -1,2 +1,2 @@
-# ts-serde
-Typed Serialization and Deserialization
+<!----- BEGIN GHOST DOCS HEADER ----->
+<!----- END GHOST DOCS HEADER ----->
