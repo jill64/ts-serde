@@ -15,6 +15,14 @@
     "!*.spec.*"
   ],
   "exports": {
+    "./utils": {
+      "types": "./dist/utils/index.d.ts",
+      "default": "./dist/utils/index.js"
+    },
+    "./object": {
+      "types": "./dist/object/index.d.ts",
+      "default": "./dist/object/index.js"
+    },
     "./primitive": {
       "types": "./dist/primitive/index.d.ts",
       "default": "./dist/primitive/index.js"
@@ -51,5 +59,8 @@
     "eslint-plugin-deprecation": "2.0.0",
     "typescript": "5.3.2",
     "vitest": "0.34.6"
+  },
+  "dependencies": {
+    "devalue": "4.3.2"
   }
 }
