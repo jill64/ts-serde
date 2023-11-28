@@ -1,7 +1,7 @@
 {
   "name": "ts-serde",
   "description": "🎶 Typed Serialization and Deserialization",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "type": "module",
   "main": "dist/index.js",
   "license": "MIT",
@@ -15,6 +15,10 @@
     "!*.spec.*"
   ],
   "exports": {
+    "./primitive": {
+      "types": "./dist/primitive/index.d.ts",
+      "default": "./dist/primitive/index.js"
+    },
     "./types": {
       "types": "./dist/types/index.d.ts",
       "default": "./dist/types/index.js"
