@@ -13,7 +13,7 @@ export const serdefy = <U>({
     guard: (value: U) => value is T,
     fallback?: T
   ): Serde<T> {
-    const exists_fallback = arguments.length === 2
+    const exists_fallback = arguments.length > 1
 
     const serialize = stringify
 
@@ -25,7 +25,7 @@ export const serdefy = <U>({
           return value
         }
 
-        throw new Error('Failed to check type guard')
+        throw new SyntaxError('Failed to check type guard')
       } catch (e) {
         if (e instanceof SyntaxError && exists_fallback) {
           return fallback as T
