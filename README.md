@@ -6,12 +6,6 @@
 
 🎶 Typed Serialization and Deserialization
 
-## Installation
-
-```sh
-npm i ts-serde
-```
-
 <!----- END GHOST DOCS HEADER ----->
 
 This library is a type-safe serialization/deserialization library inspired by [`serde.rs`](https://serde.rs).
