@@ -3,7 +3,6 @@
   "description": "🎶 Typed Serialization and Deserialization",
   "version": "0.3.1",
   "type": "module",
-  "main": "dist/index.js",
   "license": "MIT",
   "author": "jill64 <intents.turrets0h@icloud.com> (https://github.com/jill64)",
   "bugs": "https://github.com/jill64/ts-serde/issues",
