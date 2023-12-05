@@ -1,5 +1,5 @@
-import { enums } from '@/object/enums.js'
 import { expect, test } from 'vitest'
+import { enums } from '../../src/index.js'
 import { prepare } from '../utils/prepare.js'
 
 test('enums', () => {

@@ -1,5 +1,5 @@
-import { json } from '@/object/json.js'
 import { expect, test } from 'vitest'
+import { json } from '../../src/index.js'
 import { prepare } from '../utils/prepare.js'
 
 test('json', () => {

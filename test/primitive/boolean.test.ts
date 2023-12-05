@@ -1,5 +1,5 @@
-import { boolean } from '@/primitive/index.js'
 import { test } from 'vitest'
+import { boolean } from '../../src/index.js'
 import { prepare } from '../utils/prepare.js'
 
 test('boolean', () => {

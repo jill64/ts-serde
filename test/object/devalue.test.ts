@@ -1,4 +1,4 @@
-import { devalue } from '@/object/devalue.js'
+import { devalue } from '../../src/index.js'
 import { expect, test } from 'vitest'
 import { prepare } from '../utils/prepare.js'
 

@@ -1,5 +1,5 @@
-import { string } from '@/primitive/index.js'
 import { test } from 'vitest'
+import { string } from '../../src/index.js'
 import { prepare } from '../utils/prepare.js'
 
 test('string', () => {

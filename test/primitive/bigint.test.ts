@@ -1,5 +1,5 @@
-import { bigint } from '@/primitive/index.js'
 import { test } from 'vitest'
+import { bigint } from '../../src/index.js'
 import { prepare } from '../utils/prepare.js'
 
 test('bigint', () => {

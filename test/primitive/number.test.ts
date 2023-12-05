@@ -1,5 +1,5 @@
-import { number } from '@/primitive/index.js'
 import { test } from 'vitest'
+import { number } from '../../src/index.js'
 import { prepare } from '../utils/prepare.js'
 
 test('number', () => {
