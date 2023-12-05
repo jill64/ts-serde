@@ -8,8 +8,14 @@
 
 <!----- END GHOST DOCS HEADER ----->
 
-This library is a type-safe serialization/deserialization library inspired by [`serde.rs`](https://serde.rs).
+This library is a type-safe serialization/deserialization library inspired by [`serde.rs`](https://serde.rs).  
 It contains the basic abstract types, some primitive functions, and object functions.
+
+## Installation
+
+```sh
+npm i ts-serde
+```
 
 ## Types
 
@@ -37,12 +43,13 @@ Simple implementation using standard constructors.
 import { string, number, boolean, bigint } from 'ts-serde/primitive'
 ```
 
-| Type                                  | serialize | deserialize         |
-| ------------------------------------- | --------- | ------------------- |
-| [string](./src/primitive/string.ts)   | `String`  | `String`            |
-| [number](./src/primitive/number.ts)   | `String`  | `Number`            |
-| [boolean](./src/primitive/boolean.ts) | `String`  | `x => x === 'true'` |
-| [bigint](./src/primitive/bigint.ts)   | `String`  | `BigInt`            |
+| Type                                  | serialize | deserialize    |
+| ------------------------------------- | --------- | -------------- |
+| [string](./src/primitive/string.ts)   | `String`  | `String`       |
+| [number](./src/primitive/number.ts)   | `String`  | `Number`       |
+| [bigint](./src/primitive/bigint.ts)   | `String`  | `BigInt`       |
+| [boolean](./src/primitive/boolean.ts) | `String`  | `x === 'true'` |
+| [integer](./src/primitive/number.ts)  | `String`  | `parseInt`     |
 
 ## Enum
 
@@ -82,15 +89,15 @@ j.deserialize('') // => To Throw Error
 ```ts
 import { devalue } from 'ts-serde/object'
 
-const de = devalue(
+const d = devalue(
   (x): x is Set<Date> =>
     // ... Type Guard
     ,
     null // fallback value
 )
 
-de.serialize(new Set([new Date()]))
+d.serialize(new Set([new Date()]))
 // => '[["Set",1],["Date","20XX-01-01T00:00:00.000Z"]]'
 
-de.deserialize('') // => null (fallback value)
+d.deserialize('') // => null (fallback value)
 ```

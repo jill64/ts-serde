@@ -8,10 +8,7 @@
   "bugs": "https://github.com/jill64/ts-serde/issues",
   "homepage": "https://github.com/jill64/ts-serde#readme",
   "files": [
-    "dist",
-    "!**/*.test.*",
-    "!*.test.*",
-    "!*.spec.*"
+    "dist"
   ],
   "exports": {
     "./utils": {
@@ -48,14 +45,14 @@
   "scripts": {
     "build": "tsc && npx publint",
     "prepack": "npm run build",
-    "test": "vitest",
     "lint": "npx eslint . && npx depcheck",
-    "format": "npx prettier --write ."
+    "format": "npx prettier -w .",
+    "test": "vitest"
   },
+  "prettier": "@jill64/prettier-config",
   "devDependencies": {
-    "@typescript-eslint/eslint-plugin": "6.13.2",
-    "@typescript-eslint/parser": "6.13.2",
-    "eslint-plugin-deprecation": "2.0.0",
+    "@jill64/eslint-config-ts": "1.0.0",
+    "@jill64/prettier-config": "1.0.0",
     "typescript": "5.3.2",
     "vitest": "1.0.1"
   },
