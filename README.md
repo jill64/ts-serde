@@ -19,7 +19,7 @@ npm i ts-serde
 
 ## Types
 
-```ts
+```js
 import { Serde } from 'ts-serde'
 import { Serialize, Deserialize } from 'ts-serde/types'
 ```
@@ -39,7 +39,7 @@ type Serde<T> = {
 
 Simple implementation using standard constructors.
 
-```ts
+```js
 import { string, number, boolean, bigint } from 'ts-serde/primitive'
 ```
 
@@ -53,7 +53,7 @@ import { string, number, boolean, bigint } from 'ts-serde/primitive'
 
 ## Enum
 
-```ts
+```js
 import { enums } from 'ts-serde/object'
 
 const e = enums(['foo', 'bar', 'baz'])
@@ -72,7 +72,7 @@ withFallback.deserialize('qux') // => 'fallback'
 
 The object conversion methods are `JSON` and [`devalue`](https://github.com/Rich-Harris/devalue).
 
-```ts
+```js
 import { json } from 'ts-serde/object'
 
 const j = json(
