@@ -1,5 +1,5 @@
-import { integer } from '@/primitive/index.js'
-import { test, expect } from 'vitest'
+import { expect, test } from 'vitest'
+import { integer } from '../../src/index.js'
 import { prepare } from '../utils/prepare.js'
 
 test('integer', () => {
