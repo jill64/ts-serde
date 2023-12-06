@@ -49,7 +49,7 @@ import { string, number, boolean, bigint } from 'ts-serde/primitive'
 | [number](./src/primitive/number.ts)   | `String`  | `Number`       |
 | [bigint](./src/primitive/bigint.ts)   | `String`  | `BigInt`       |
 | [boolean](./src/primitive/boolean.ts) | `String`  | `x === 'true'` |
-| [integer](./src/primitive/number.ts)  | `String`  | `parseInt`     |
+| [integer](./src/primitive/integer.ts) | `String`  | `parseInt`     |
 
 ## Enum
 
