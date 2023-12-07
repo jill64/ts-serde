@@ -54,7 +54,7 @@
     "@jill64/eslint-config-ts": "1.0.1",
     "@jill64/prettier-config": "1.0.0",
     "typescript": "5.3.3",
-    "vitest": "1.0.1"
+    "vitest": "1.0.2"
   },
   "dependencies": {
     "devalue": "4.3.2"
