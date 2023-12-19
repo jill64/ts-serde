@@ -101,3 +101,11 @@ d.serialize(new Set([new Date()]))
 
 d.deserialize('') // => null (fallback value)
 ```
+
+<!----- BEGIN GHOST DOCS FOOTER ----->
+
+## License
+
+MIT
+
+<!----- END GHOST DOCS FOOTER ----->

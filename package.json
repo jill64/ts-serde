@@ -1,12 +1,12 @@
 {
   "name": "ts-serde",
   "description": "🎶 Typed Serialization and Deserialization",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "type": "module",
   "license": "MIT",
   "author": {
     "name": "jill64",
-    "email": "143883742+jill64@users.noreply.github.com",
+    "email": "intents.turrets0h@icloud.com",
     "url": "https://github.com/jill64",
     "image": "https://avatars.githubusercontent.com/u/143883742?v=4"
   },
@@ -60,7 +60,7 @@
     "@jill64/eslint-config-ts": "1.0.6",
     "@jill64/prettier-config": "1.0.0",
     "typescript": "5.3.3",
-    "vitest": "1.0.4"
+    "vitest": "1.1.0"
   },
   "dependencies": {
     "devalue": "4.3.2"
