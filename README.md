@@ -110,6 +110,6 @@ d.deserialize('') // => null (fallback value)
 
 ## License
 
-MIT
+[MIT](LICENSE)
 
 <!----- END GHOST DOCS FOOTER ----->
