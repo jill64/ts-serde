@@ -1,7 +1,7 @@
 {
   "name": "ts-serde",
   "description": "🎶 Typed Serialization and Deserialization",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "type": "module",
   "license": "MIT",
   "author": {
@@ -40,7 +40,7 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/jill64/ts-serde.git",
-    "image": "https://opengraph.githubassets.com/77960c67076eeddadfbdbd969162467fb94406d5a5ac47d9f1da79b504ebe182/jill64/ts-serde"
+    "image": "https://opengraph.githubassets.com/280b388c61095e4c092b196d8858bad0aad9c59fe65d113545fffedd466c871b/jill64/ts-serde"
   },
   "keywords": [
     "deserialize",
@@ -63,6 +63,6 @@
     "vitest": "1.5.0"
   },
   "dependencies": {
-    "devalue": "4.3.3"
+    "devalue": "5.0.0"
   }
 }
