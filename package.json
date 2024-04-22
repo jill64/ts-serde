@@ -6,7 +6,7 @@
   "license": "MIT",
   "author": {
     "name": "jill64",
-    "email": "intents.turrets0h@icloud.com",
+    "email": "contact@jill64.dev",
     "url": "https://github.com/jill64",
     "image": "https://avatars.githubusercontent.com/u/143883742?v=4"
   },
@@ -40,7 +40,7 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/jill64/ts-serde.git",
-    "image": "https://opengraph.githubassets.com/280b388c61095e4c092b196d8858bad0aad9c59fe65d113545fffedd466c871b/jill64/ts-serde"
+    "image": "https://opengraph.githubassets.com/1c9ea7936afc1d7fca00c1082a87aec65a1ed19e58b78d4510e05e301ffef7d7/jill64/ts-serde"
   },
   "keywords": [
     "deserialize",
