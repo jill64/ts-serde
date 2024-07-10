@@ -23,7 +23,7 @@ npm i ts-serde
 
 ## Types
 
-```js
+```ts
 import { Serde } from 'ts-serde'
 import { Serialize, Deserialize } from 'ts-serde/types'
 ```
@@ -76,7 +76,9 @@ withFallback.deserialize('qux') // => 'fallback'
 
 The object conversion methods are `JSON` and [`devalue`](https://github.com/Rich-Harris/devalue).
 
-```js
+To add a type guard inline
+
+```ts
 import { json } from 'ts-serde/object'
 
 const j = json(
@@ -86,6 +88,24 @@ const j = json(
 
 j.serialize({ key: 'value' }) // => '{"key":"value"}'
 j.deserialize('') // => To Throw Error
+```
+
+Use `type` to add a type guard instead `interface` for external type definition
+
+```js
+import { json } from 'ts-serde/object'
+
+type Settings = {
+    v: string;
+    lwm: {
+        expanded: boolean
+    }
+}
+
+const j =json<Settings>(
+  (x): x is Settings =>
+    // ... Type Guard
+)
 ```
 
 `devalue` supports more types than JSON.
