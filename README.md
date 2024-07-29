@@ -2,11 +2,11 @@
 
 # ts-serde
 
+
 <!----- BEGIN GHOST DOCS BADGES ----->
-
 <a href="https://npmjs.com/package/ts-serde"><img src="https://img.shields.io/npm/v/ts-serde" alt="npm-version" /></a> <a href="https://npmjs.com/package/ts-serde"><img src="https://img.shields.io/npm/l/ts-serde" alt="npm-license" /></a> <a href="https://npmjs.com/package/ts-serde"><img src="https://img.shields.io/npm/dm/ts-serde" alt="npm-download-month" /></a> <a href="https://npmjs.com/package/ts-serde"><img src="https://img.shields.io/bundlephobia/min/ts-serde" alt="npm-min-size" /></a> <a href="https://github.com/jill64/ts-serde/actions/workflows/ci.yml"><img src="https://github.com/jill64/ts-serde/actions/workflows/ci.yml/badge.svg" alt="ci.yml" /></a>
-
 <!----- END GHOST DOCS BADGES ----->
+
 
 🎶 Typed Serialization and Deserialization
 
