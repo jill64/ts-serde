@@ -60,7 +60,7 @@
     "@jill64/eslint-config-ts": "1.1.54",
     "@jill64/prettier-config": "1.0.0",
     "typescript": "5.7.2",
-    "vitest": "2.1.6"
+    "vitest": "2.1.7"
   },
   "dependencies": {
     "devalue": "5.1.1"
