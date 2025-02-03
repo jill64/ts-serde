@@ -40,7 +40,7 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jill64/ts-serde.git",
-    "image": "https://opengraph.githubassets.com/bfd0c2a3d2c30a71bdca9b5e8e86369d13b79b946d92bfb2c372b48acecf668b/jill64/ts-serde"
+    "image": "https://opengraph.githubassets.com/fa69ab2948605a69cf16eaa085bab9cf0538b53a4825f3a2a72b419bc6868751/jill64/ts-serde"
   },
   "keywords": [
     "deserialize",
@@ -57,7 +57,7 @@
   },
   "prettier": "@jill64/prettier-config",
   "devDependencies": {
-    "@jill64/eslint-config-ts": "2.0.4",
+    "@jill64/eslint-config-ts": "2.0.5",
     "@jill64/prettier-config": "1.0.0",
     "typescript": "5.7.3",
     "vitest": "3.0.4"
