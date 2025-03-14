@@ -1,7 +1,7 @@
 {
   "name": "ts-serde",
   "description": "🎶 Typed Serialization and Deserialization",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "type": "module",
   "license": "MIT",
   "author": {
@@ -49,10 +49,10 @@
     "type-safe"
   ],
   "scripts": {
-    "build": "tsc && npx publint",
-    "prepack": "npm run build",
-    "lint": "npx eslint . && npx depcheck",
-    "format": "npx prettier -w .",
+    "build": "tsc && bunx publint",
+    "prepack": "bun run build",
+    "lint": "bunx eslint . && bunx depcheck",
+    "format": "bunx prettier -w .",
     "test": "vitest"
   },
   "prettier": "@jill64/prettier-config",
@@ -60,7 +60,7 @@
     "@jill64/eslint-config-ts": "2.0.17",
     "@jill64/prettier-config": "1.0.0",
     "typescript": "5.8.2",
-    "vitest": "3.0.5"
+    "vitest": "3.0.8"
   },
   "dependencies": {
     "devalue": "5.1.1"
