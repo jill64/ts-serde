@@ -40,7 +40,7 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jill64/ts-serde.git",
-    "image": "https://opengraph.githubassets.com/0157f8c68c9fea62ec6f13ebee6d29c654af3e28c1d93ee703722847440442ad/jill64/ts-serde"
+    "image": "https://opengraph.githubassets.com/ae95486ca3109f9afdec4d7b7adfe3c40335471221c82823a08daa985120b76b/jill64/ts-serde"
   },
   "keywords": [
     "deserialize",
